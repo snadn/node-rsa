@@ -4,6 +4,7 @@
   "description": "Node.js RSA library",
   "main": "src/NodeRSA.js",
   "scripts": {
+    "build": "webpack",
     "test": "grunt test"
   },
   "repository": {
@@ -30,11 +31,17 @@
   },
   "homepage": "https://github.com/rzcoder/node-rsa",
   "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-jscript": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "chai": "2.0.0",
+    "es3ify-loader": "^0.2.0",
     "grunt": "0.4.5",
+    "grunt-contrib-jshint": "0.11.0",
     "grunt-simple-mocha": "0.4.0",
     "jit-grunt": "0.9.1",
-    "chai": "2.0.0",
-    "grunt-contrib-jshint": "0.11.0",
     "lodash": "^4.0.0"
   },
   "dependencies": {
