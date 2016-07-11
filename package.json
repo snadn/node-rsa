@@ -42,7 +42,10 @@
     "grunt-contrib-jshint": "0.11.0",
     "grunt-simple-mocha": "0.4.0",
     "jit-grunt": "0.9.1",
-    "lodash": "^4.0.0"
+    "json-loader": "^0.5.4",
+    "lodash": "^4.0.0",
+    "node-libs-browser": "^1.0.0",
+    "webpack": "^1.13.1"
   },
   "dependencies": {
     "asn1": "0.2.3"

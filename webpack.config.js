@@ -31,7 +31,7 @@ module.exports = {
 
 	resolve: {
 		alias: {
-			'rng': __dirname + '/src/libs/rng.js'
+			'crypto': __dirname + '/src/libs/crypto.browser.js'
 		}
 	},
 
@@ -41,7 +41,6 @@ module.exports = {
 				warnings: false
 			}
 		}),
-		new webpack.NormalModuleReplacementPlugin(/\.\/rng/, 'rng')
 	],
 
 	devtool: '#source-map'
